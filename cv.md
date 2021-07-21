@@ -40,4 +40,4 @@ const func = (num) => {
 ### Languages:
 
 * Russian: native
-* English: A2
+* English: B1
