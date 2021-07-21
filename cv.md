@@ -5,10 +5,12 @@
 * discord: mosdef1#5006
 * [github](https://github.com/mosdef71) 
 * [e-mail](mailto:mosdef71@mail.ru)
+
 ***
 ### Some information
 
 *Since last year I discovered programming. At this point, I have basic experience in web development. I want to learn something new and find like-minded people*
+
 ***
 ### I have knowledge/experience:
 
@@ -16,6 +18,7 @@
 * *write basic mathematical programs in python;*
 * *use git tools;*
 * *work in ps, ai and figma.*
+
 ***
 ### Code examples
 
@@ -31,6 +34,7 @@ const func = (num) => {
 ### Education
 
 1. self-education on youtube and online free courses
+
 ***
 
 ### Languages:
