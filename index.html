@@ -9,17 +9,19 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="wrapper">
-        <header>
+    <header>
+        <div class="wrapper">
             <div class="header__foto">
                 <img src="/img/catglass.jpg" alt="foto" height="200px">
             </div>
             <div class="header__title">
                 <h1>Dmitriy Podshibyakin</h1>
             </div>
-        </header>
+        </div>
+    </header>
 
-        <aside class="aside">
+    <aside class="aside">
+        <div class="wrapper">
             <div class="contacts">
                 <div class="aside__title">
                     <h2>Contacts</h2>
@@ -44,9 +46,11 @@
                 <p>Russian: native</p>
                 <p>English: B1</p>
             </div>
-        </aside>
+        </div>
+    </aside>
 
-        <main class="main">
+    <main class="main">
+        <div class="wrapper">
             <div class="information">
                 <h2>Some information:</h2>
                 <p>Since last year I discovered programming. At this point, I have basic experience in web development. I want to learn something new and find like-minded people.</p>
@@ -70,29 +74,23 @@
                     } 
                 </code>
             </div>
-        </main>
+        </div>
+    </main>
 
-        <footer class="footer">
-            <div class="footer__git">
-                <a href="https://github.com/mosdef71"><img src="/img/github_logo.svg" height="26px" alt="git logo" srcset=""></a>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__block">
+                <div class="footer__git">
+                    <a href="https://github.com/mosdef71" class="footer__pic"><img src="/img/github_logo.svg" height="26px" alt="git logo" srcset=""></a>
+                </div>
+                <div class="footer__date">
+                    <p>2021</p>
+                </div>
+                <div class="footer__curse">
+                    <a href="https://rs.school/js/" class="footer__pic"><img src="/img/rs_school_js.svg" height="26px"  alt="course logo"></a>
+                </div>
             </div>
-            <div class="footer__date">
-                <p>2021</p>
-            </div>
-            <div class="footer__curse">
-                <a href="https://rs.school/js/"><img src="/img/rs_school_js.svg" height="26px"  alt="course logo"></a>
-            </div>
-        </footer>
-
-
-
-
-
-
-
-
-
-
-    </div>
+        </div>
+    </footer>
 </body>
 </html>
