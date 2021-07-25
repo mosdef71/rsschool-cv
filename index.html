@@ -9,73 +9,89 @@
     <title>Document</title>
 </head>
 <body>
+
+    
+<!-- HEADER  -->
+
     <header>
         <div class="wrapper">
-            <div class="header__foto">
-                <img src="/img/catglass.jpg" alt="foto" height="200px">
-            </div>
-            <div class="header__title">
-                <h1>Dmitriy Podshibyakin</h1>
+            <div class="header__col">
+                <div class="header__foto">
+                    <img src="/img/catglass.jpg" alt="foto" height="200px">
+                </div>
+                <div class="header__about">
+                    <div class="header__about-title">
+                        <h1>Dmitriy Podshibyakin</h1>
+                    </div>
+                    <div class="header__about-contacts">
+                        <ul>
+                            <li><p>Discord: mosdef1#5006</p> </li>
+                            <li><p>Github: <a href="https://github.com/mosdef71">mosdef71</a></p></li>
+                            <li><p>VK: <a href="https://vk.com/id172606563">link</a></p></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
 
-    <aside class="aside">
-        <div class="wrapper">
-            <div class="contacts">
-                <div class="aside__title">
-                    <h2>Contacts</h2>
-                </div>
-                <ul>
-                    <li><p>Discord: mosdef1#5006</p> </li>
-                    <li><p>Github: <a href="https://github.com/mosdef71">mosdef71</a></p></li>
-                    <li><p>VK: <a href="https://vk.com/id172606563">link</a></p></li>
-                </ul>
-            </div>
-            <div class="education">
-                <div class="aside__title">
-                    <h2>Education:</h2>
-                </div>
-                <p>Novomoskovsk Institute of the D.I. Mendeleev Russian University of Chemical Technology, 2013 - 2017</p>
-                <p>Faculty of Economics and Finance</p>
-            </div>
-            <div class="languages">
-                <div class="aside__title">
-                    <h2>Languages:</h2>
-                </div>
-                <p>Russian: native</p>
-                <p>English: B1</p>
-            </div>
-        </div>
-    </aside>
+    <div class="content__wrapper">
+        
+<!-- ASIDE -->
 
-    <main class="main">
-        <div class="wrapper">
-            <div class="information">
-                <h2>Some information:</h2>
-                <p>Since last year I discovered programming. At this point, I have basic experience in web development. I want to learn something new and find like-minded people.</p>
+        <aside class="aside">
+            <div class="wrapper">
+                <section class="education">
+                    <div class="aside__title">
+                        <h2>Education:</h2>
+                    </div>
+                    <p>Novomoskovsk Institute of the D.I. Mendeleev Russian University of Chemical Technology, 2013 - 2017</p>
+                    <p>Faculty of Economics and Finance</p>
+                </section>
+                <section class="languages">
+                    <div class="aside__title">
+                        <h2>Languages:</h2>
+                    </div>
+                    <p>Russian: native</p>
+                    <p>English: B1</p>
+                </section>
             </div>
-            <div class="experience">
-                <h2>I have knowledge/experience:</h2>
-                <ul>
-                    <li>web development with html/css, use preprocessors and bem;</li>
-                    <li>write basic mathematical programs in python;</li>
-                    <li>use git tools;</li>
-                    <li>work in ps, ai and figma.</li>
-                </ul>
+        </aside>
+
+<!-- MAIN -->
+
+        <main class="main">
+            <div class="wrapper">
+                <div class="information">
+                    <h2>Some information:</h2>
+                    <p>Since last year I discovered programming. At this point, I have basic experience in web development. I want to learn something new and find like-minded people.</p>
+                </div>
+                <div class="experience">
+                    <h2>I have knowledge/experience:</h2>
+                    <ul>
+                        <li>web development with html/css, use preprocessors and bem;</li>
+                        <li>write basic mathematical programs in python;</li>
+                        <li>use git tools;</li>
+                        <li>work in ps, ai and figma.</li>
+                    </ul>
+                </div>
+                <div class="code-examples">
+                    <h2>Code examples:</h2>
+                    <div class="code-examples__code">
+                        <code>
+                            let result;<br> 
+                            const func = (num) => { <br>
+                                &nbsp;&nbsp; result = (num < 0) ? "negative num" : "positive num"; <br>
+                                &nbsp;&nbsp; return result; <br>
+                            } 
+                        </code>
+                    </div>
+                </div>
             </div>
-            <div class="code-examples">
-                <h2>Code examples:</h2>
-                <code>
-                    let result;<br> 
-                    const func = (num) => { <br>
-                        &nbsp;&nbsp; result = (num < 0) ? "negative num" : "positive num"; <br>
-                        &nbsp;&nbsp; return result; <br>
-                    } 
-                </code>
-            </div>
+        </main>
         </div>
-    </main>
+
+<!-- FOOTER -->
 
     <footer class="footer">
         <div class="wrapper">
@@ -92,5 +108,7 @@
             </div>
         </div>
     </footer>
+
+
 </body>
 </html>
