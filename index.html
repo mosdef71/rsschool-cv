@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>CV</title>
 </head>
 <body>
 
@@ -27,7 +30,6 @@
                         <ul>
                             <li><p>Discord: mosdef1#5006</p> </li>
                             <li><p>Github: <a href="https://github.com/mosdef71">mosdef71</a></p></li>
-                            <li><p>VK: <a href="https://vk.com/id172606563">link</a></p></li>
                         </ul>
                     </div>
                 </div>
@@ -45,7 +47,7 @@
                     <div class="aside__title">
                         <h2>Education:</h2>
                     </div>
-                    <p>Novomoskovsk Institute of the D.I. Mendeleev Russian University of Chemical Technology, 2013 - 2017</p>
+                    <h3>Novomoskovsk Institute of the D.I. Mendeleev Russian University of Chemical Technology, 2013 - 2017</h3>
                     <p>Faculty of Economics and Finance</p>
                 </section>
                 <section class="languages">
@@ -77,15 +79,29 @@
                 </div>
                 <div class="code-examples">
                     <h2>Code examples:</h2>
-                    <div class="code-examples__code">
-                        <code>
-                            let result;<br> 
-                            const func = (num) => { <br>
-                                &nbsp;&nbsp; result = (num &lt; 0) ? "negative num" : "positive num"; <br>
-                                &nbsp;&nbsp; return result; <br>
-                            } 
-                        </code>
+
+                    <pre>
+                      <code class="javascript">let result; <br> const func = (num) => { <br>&nbsp;&nbsp; result = (num &lt; 0) ? "negative num" : "positive num"; <br>&nbsp;&nbsp; return result; <br>}</code>
+                  </pre>
+                    
+                </div>
+
+                <div class="work-examples">
+                 <!--  У каждого проекта есть название, небольшое описание, указан перечень используемых технологий. -->
+                    <h2>Work examples:</h2>
+                    <div class="work-examples__block">
+                      <div class="work-examples__item">
+                        <a href="https://rolling-scopes-school.github.io/mosdef71-JSFEPRESCHOOL/museum/">Museum task</a>
+                      </div>
                     </div>
+                    <div class="work-examples__block">
+                      <div class="work-examples__item">
+                        <a href="https://rolling-scopes-school.github.io/mosdef71-JSFEPRESCHOOL/js30/">JS30 task, clock</a>
+                      </div>
+                    </div>
+
+                 
+                 
                 </div>
             </div>
         </main>
